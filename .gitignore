@@ -1,0 +1,18 @@
+# Ignore artifacts gerados pelo PySpark
+artifacts/
+*.crc
+_SUCCESS
+
+# Ignore checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Ignore arquivos de sistema
+.DS_Store
+
+# Ignore caches Python
+__pycache__/
+*.pyc
+
+# Ignore arquivos de dataset
+fraudTrain.csv
+fraudTest.csv
